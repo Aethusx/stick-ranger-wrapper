@@ -5,9 +5,9 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-win": "npx electron-packager . --overwrite --platform=win32 --arch=x64 --prune=true --out=release-builds",
-    "build-linux": "npx electron-packager . --overwrite --platform=linux --arch=x64 --prune=true --out=release-builds",
-    "build-macos": "npx electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
+    "build-win": "npx electron-packager . --overwrite --platform=win32 --arch=x64 --prune=true --out=release-builds --ignore=/screenshots",
+    "build-linux": "npx electron-packager . --overwrite --platform=linux --arch=x64 --prune=true --out=release-builds --ignore=/screenshots",
+    "build-macos": "npx electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds --ignore=/screenshots",
     "start": "electron ."
   },
   "author": "aethus",

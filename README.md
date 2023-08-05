@@ -16,7 +16,11 @@ Simple stick ranger wrapper made in Electron
 
 # Usage
 
-Put `Stick Ranger.js` and `data\` into `resources\app\` folder and run executable
+Put `Stick Ranger.js` and `data\` into `resources\app\` (or `stick-ranger.app\Contents\Resources\app`` on macOS) folder and run executable
+
+# Screenshots
+
+![Screenshot 1](/screenshots/1.png?raw=true)
 
 # How to integrate with mods
 
