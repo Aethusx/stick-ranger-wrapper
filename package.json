@@ -1,0 +1,19 @@
+{
+  "name": "stick-ranger",
+  "version": "1.0.0",
+  "description": "stick ranger electron wrapper",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_win": "npx electron-packager . --overwrite --platform=win32 --arch=x64 --prune=true --out=release-builds",
+    "start": "electron ."
+  },
+  "author": "aethus",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.4.0"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  }
+}

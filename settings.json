@@ -1,0 +1,12 @@
+{
+  "width": 800,
+  "height": 600,
+  "autoSaveFrequency": 300,
+  "maxBackupAmount": 50,
+  "imageRendering": "pixelated",
+  "saveFileLocation": "./save.txt",
+  "backupFileLocation": "./save-backup.json",
+  "discordRPCEnabled": true,
+  "discordClientId": "1137106403295756360",
+  "enableCheats": true
+}

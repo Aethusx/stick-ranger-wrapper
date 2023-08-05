@@ -1,0 +1,11 @@
+node_modules/
+audio/
+data/
+release-builds/
+
+map.gif
+map2.gif
+package-lock.json
+save-backup.json
+save.txt
+Stick Ranger.js
